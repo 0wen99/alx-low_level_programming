@@ -1,22 +1,24 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- * main - Entry point
+ * main -prints _putchar
  *
- * Description: prints _putchar
+ * Descripyion: prints _putchar
  *
- * Return:  0 (Success)
+ * Return: 0 (SUCCESS)
  */
 
 int main(void)
 {
-	char word[8] = "_putchar";
-	int i;
+	char text[7] = "_putchar";
+	int i = 0;
 
 	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
+	{
+		_putchar(text[i]);
+	}
 	_putchar('\n');
 
 	return (0);
 }
+
